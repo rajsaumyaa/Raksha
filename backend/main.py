@@ -49,6 +49,15 @@ class IncidentResponse(BaseModel):
     phone_numbers: List[str]
     upi_ids: List[str]
 
+@app.get("/")
+def root():
+    return {
+        "status": "online",
+        "service": "Raksha Digital Public Safety API",
+        "health": "/api/health",
+        "docs": "/docs"
+    }
+
 @app.get("/api/health")
 def health_check():
     return {"status": "ok", "service": "Raksha API"}
