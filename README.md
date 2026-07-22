@@ -94,9 +94,9 @@ sequenceDiagram
 - **One-Click Demo Presets:** Includes 3 realistic scam scenario presets for immediate demonstration.
 
 > [!TIP]
-> **Citizen Interface Preview:**
+> **Citizen Interface Preview (`RakshaCall` / `shield`):**
 > 
-> ![RakshaCall Citizen View](https://raw.githubusercontent.com/placeholder/raksha-shield.png)
+> ![RakshaCall Citizen View](docs/images/citizen-shield.png)
 > *(Paste transcript -> Instant AI risk score gauge, scam indicators, and safety guide)*
 
 ---
@@ -107,10 +107,14 @@ sequenceDiagram
 - **Syndicate Inspection Side Panel:** Click any cluster or node to view aggregated shared phone numbers, shared UPI accounts, and all linked victim complaints.
 
 > [!NOTE]
-> **Investigator Dashboard Preview:**
+> **Investigator Intelligence Dashboard (`RakshaGraph` / `graph`):**
 > 
-> ![RakshaGraph Dashboard](https://raw.githubusercontent.com/placeholder/raksha-graph.png)
-> *(Isolated citizen complaints automatically clustered into 3 distinct color-coded criminal syndicates)*
+> ![RakshaGraph Dashboard](docs/images/investigator-dashboard.png)
+> 
+> **Interactive Fraud Ring Network Topology Graph:**
+> 
+> ![Fraud Graph Topology](docs/images/fraud-graph-topology.png)
+> *(31 isolated citizen complaints automatically clustered into organized criminal syndicates)*
 
 ---
 
