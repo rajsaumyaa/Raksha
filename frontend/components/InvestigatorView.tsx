@@ -32,7 +32,8 @@ export default function InvestigatorView() {
   const fetchGraphData = async () => {
     setLoading(true);
     setError(null);
-    const apiBase = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:8000';
+    const rawApiBase = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:8000';
+    const apiBase = rawApiBase.replace(/\/$/, '');
     try {
       const res = await fetch(`${apiBase}/api/graph`);
       if (!res.ok) {
